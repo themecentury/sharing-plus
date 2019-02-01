@@ -4,15 +4,15 @@ Donate link: https://themecentury.com/
 Tags: Social share, Social buttons, Whatsapp, Viber, LinkedIn, facebook, google, twitter, pinterest etc.
 Requires at least: 4.0
 Tested up to: 5.0.3
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Simple Social Media Share Buttons adds an advanced set of social media sharing buttons to your WordPress sites, such as: Google +1, Facebook, WhatsApp, Viber, Twitter, Reddit, LinkedIn and Pinterest. This makes it the most flexible social sharing plugin ever for Everyone.
+Sharing Plus adds an advanced set of social media sharing buttons to your WordPress sites, such as: Google+, Facebook, WhatsApp, Viber, Twitter, Reddit, LinkedIn and Pinterest. This makes it the most flexible social sharing plugin ever for Everyone.
 
 == Description ==
 
-[Sharing Plus](https://themecentury.com/downloads/sharing-plus/ "This plugin makes Social Sharing easy for everyone.") adds  ( with lots of options like widgets, inline, media and below the posts content, on photos ) an advanced set of social media sharing buttons to your WordPress sites, such as: Google +1, Facebook, WhatsApp, Viber, Twitter, Reddit, LinkedIn and Pinterest.
+[Sharing Plus](https://themecentury.com/downloads/sharing-plus-free-wordpress-plugin/ "This plugin makes Social Sharing easy for everyone.") adds  ( with lots of options like widgets, inline, media and below the posts content, on photos ) an advanced set of social media sharing buttons to your WordPress sites, such as: Google +1, Facebook, WhatsApp, Viber, Twitter, Reddit, LinkedIn and Pinterest.
 
 > Rich set of features makes it the most flexible **Social Sharing plugin ever for Everyone**.
 
@@ -78,11 +78,15 @@ like_button_size = small(default), large
 
 == Changelog ==
 
+= 1.0.3 - 2019-02-01 =
+* Fixed - escaping issue fixed
+* Removed - custom debug log path removed
+
 = 1.0.2 - 2019-01-31 =
-* sanitization, escaping and validation issue fixed
+* Fixed - sanitization, escaping and validation issue fixed
 
 = 1.0.1 - 2018-12-14 =
-* Curl Issue Fixed
+* Fixed - Curl Issue Fixed
 
 = 1.0.0 - 2018-10-02 =
 * Initial Release

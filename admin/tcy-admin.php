@@ -148,7 +148,7 @@ if ( ! class_exists( 'Sharing_Plus_Admin' ) ) :
 			}
 
 			// Saving data
-			$newValue = (isset( $_POST[ SHARING_PLUS_HIDE_CUSTOM_META_KEY ] )) ? $_POST[ SHARING_PLUS_HIDE_CUSTOM_META_KEY ] : 'false';
+			$newValue = (isset( $_POST[ SHARING_PLUS_HIDE_CUSTOM_META_KEY ] )) ? esc_attr($_POST[ SHARING_PLUS_HIDE_CUSTOM_META_KEY ]) : 'false';
 
 			update_post_meta( $postId, SHARING_PLUS_HIDE_CUSTOM_META_KEY, $newValue );
 		}

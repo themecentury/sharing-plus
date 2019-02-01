@@ -273,7 +273,7 @@ module.exports = function (grunt) {
                     },*/
                     port: 4000,
                     watchTask: true,
-                    proxy: "localhost/themecentury/plugins/sharing-plus",
+                    proxy: "https://themecentury.com/downloads/sharing-plus-free-wordpress-plugin/",
                 },
             },
         },

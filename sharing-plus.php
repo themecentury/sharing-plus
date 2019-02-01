@@ -3,14 +3,14 @@
  *
  * @link https://themecentury.com
  *
- * @package	Theme Century
+ * @package	ThemeCentury
  * @subpackage Sharing Plus
  *
  * Plugin Name:       Sharing Plus
  * Plugin URI:        https://wordpress.org/plugins/sharing-plus/
  * Description:       Sharing Plus adds an advanced set of social media sharing buttons to your WordPress sites, such as: Google +1, Facebook, WhatsApp, Viber, Twitter, Reddit, LinkedIn and Pinterest. This makes it the most Flexible Social Sharing Plugin ever for Everyone.
- * Version:           1.0.2
- * Author:            Theme Century
+ * Version:           1.0.3
+ * Author:            ThemeCentury
  * Author URI:        https://themecentury.com
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
@@ -19,10 +19,6 @@
  */
 
 defined('ABSPATH') or exit;
-
-if (defined('WP_DEBUG_LOG') && WP_DEBUG_LOG) {
-	ini_set( 'error_log', plugin_dir_path( __FILE__ ) . '/debug.txt' );
-}
 
 if(!class_exists('Sharing_Plus')):
 
